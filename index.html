@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Eternal Devotee: Lessons from Lord Hanuman</title>
+        <link rel="icon" href="https://m.media-amazon.com/images/I/515J46pPWgL._AC_UF894,1000_QL80_.jpg"/>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lora&display=swap');
+            
+            body{
+                background-color: antiquewhite;
+            }
+            .head1{
+                text-align: center;
+                font-size: 50px;
+                font-family: 'Lora', serif;
+
+            }
+            .image1{
+                border:0;
+                border-radius: 25px;
+                margin-left: 25%;
+                height: 70%;
+                width: 50%;
+            }
+            .intro1{
+                text-align: center;
+                font-size: 20px;
+            }
+            .subhead{
+                font-size: 30px;
+                text-align: center;
+            }
+            .Intro{
+                text-align: justify;
+                font-size: 20px;
+                margin-top: 1%;
+                margin-left: 1.5%;
+                margin-bottom: 1%;
+                margin-right: 1%;
+            }
+            .birth{
+                border:0;
+                border-radius: 100px;
+                margin-left: 35%;
+            }
+            .sun{
+                width:500px;
+                height: 600px;
+                margin-left: 35%;
+                border: 0;
+                border-radius: 100px;
+            }
+            .bless{
+                width:50%;
+                height: 70%;
+                margin-left: 25%;
+                border: 0;
+                border-radius: 100px;
+            }
+            .meet{
+                border:0;
+                border-radius: 100px;
+                margin-left: 35%;
+                padding:2%;
+            }
+            .south{
+                border:0;
+                border-radius: 100px;
+                margin-left: 30%;
+            }
+            .sampathi{
+                width: 50%;
+                height: 70%;
+                margin-left: 25%;
+                border: 0;
+                border-radius: 100px;
+            }
+           .chalisa-container {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.85);
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-left: 10px solid #d84315;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.chalisa-container::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url('https://wallpapers.com/images/hd/lord-hanuman-3d-sunlight-ozgajnmyme7pqki0.jpg') no-repeat center center;
+  background-size: cover;
+  opacity: 0.10; /* Adjust this for more or less visibility */
+  z-index: -1;
+}
+
+
+    h1 {
+      font-family: 'Cinzel', serif;
+      text-align: center;
+      color: #bf360c;
+      margin-bottom: 30px;
+    }
+
+    .chalisa {
+      font-size: 20px;
+      /* line-height: 1.8; */
+      white-space: pre-line;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        background-size: cover;
+      }
+
+      .chalisa-container {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .chalisa {
+        font-size: 18px;
+      }
+    }
+    .lessons-container {
+      max-width: 960px;
+      margin: 60px auto;
+      padding: 40px;
+      background: #fff3e0;
+      border-radius: 12px;
+      border-left: 8px solid #d84315;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .lessons-container h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      color: #bf360c;
+      margin-bottom: 20px;
+    }
+
+    .lessons-container p {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 16px;
+      color: #4e342e;
+    }
+
+    .lesson-highlight {
+      background: #ffe0b2;
+      border-left: 5px solid #ef6c00;
+      padding: 10px 20px;
+      margin: 24px 0;
+      border-radius: 6px;
+      font-weight: bold;
+      color: #6d4c41;
+    }
+
+    .lessons-container h3 {
+      color: #8e2800;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .lessons-container {
+        margin: 20px;
+        padding: 25px;
+      }
+
+      .lessons-container h2 {
+        font-size: 26px;
+      }
+
+      .lessons-container p {
+        font-size: 16px;
+      }
+    }
+    /* ------------------- Animations & Effects ------------------- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1, .subhead, .chalisa-container, .lessons-container {
+  animation: fadeInUp 1.2s ease-out both;
+}
+
+img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.lesson-highlight {
+  transition: background 0.5s ease;
+}
+.lesson-highlight:hover {
+  background: #ffe9cc;
+}
+
+/* ------------------- Responsive Optimizations ------------------- */
+@media (max-width: 1024px) {
+  .image1, .birth, .sun, .bless, .meet, .south, .sampathi {
+    width: 80% !important;
+    height: auto !important;
+    margin-left: 10% !important;
+  }
+
+  .head1 {
+    font-size: 38px;
+  }
+
+  .subhead {
+    font-size: 26px;
+  }
+
+  .Intro {
+    font-size: 18px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .chalisa {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .head1 {
+    font-size: 30px;
+    margin: 20px 10px;
+  }
+
+  .subhead {
+    font-size: 22px;
+  }
+
+  .Intro, .lessons-container p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .lessons-container {
+    margin: 16px;
+    padding: 20px;
+  }
+
+  .chalisa-container {
+    padding: 20px 16px;
+    margin: 30px 16px;
+  }
+
+  .chalisa {
+    font-size: 16px;
+  }
+
+  .lesson-highlight {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+.scroll-fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-out;
+  will-change: opacity, transform;
+}
+
+.scroll-fade.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+        </style>
+    </head>
+        <body>
+            <h1 class="head1">The Eternal Devotee: <br/>
+            Lessons from <br/>Lord Hanuman</h1>
+            <br>
+            <p class="intro1">
+  Lord Hanuman is one of the most revered and iconic figures in Hindu mythology. Renowned for his boundless strength, unwavering devotion to Lord Rama, and fearless courage, he continues to inspire <br/>generations.  
+  
+  This blog delves into his divine origin, timeless qualities, legendary tales, and his enduring spiritual significance in modern life.
+</p>
+
+            <img src="https://wallpapersok.com/images/high/lord-hanuman-meditating-hd-6nolwbaqy8vijbyv.jpg" class="image1 scroll-fade">
+            <br>
+            <h2 class="subhead">
+                The Divine Birth of Lord Hanuman
+            </h2>
+            <img src="https://shiva1008.com/wp-content/uploads/2023/11/hanunam-birth.jpg" class="birth scroll-fade">
+            <p class="Intro">In the quiet folds of the Anjanadri hills, an extraordinary soul descended to earth—born not merely of mortals, but of sacred blessings and divine will. Lord Hanuman was the son of Anjana, a celestial apsara cursed to live on earth, and Kesari, a brave vanara chief. But his birth was divinely orchestrated by Vayu, the Wind God, who infused his spiritual essence into the child, making Hanuman a literal breath of cosmic energy. <br>
+            
+            According to legend, the sacred offering being given to King Dasharatha (for the birth of Ram, Lakshman, Bharat, and Shatrughna) was carried away by the wind and reached Anjana through Vayu’s divine grace—linking Hanuman’s birth directly to that of Lord Ram. 🌬️✨ <br>
+        
+        From the very beginning, it was clear—Hanuman wasn’t just another vanara. He was destined to play a crucial role in the unfolding of dharma, carrying in his tiny palms the spark of celestial greatness.</p>
+        <h2 class="subhead">Hanuman’s Leap Toward the Sun</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjvwRAhkEg2uhxV2Qy9OfUlccSLDxjaP_J1Q&s" class="sun scroll-fade">
+        <p class="Intro">One fine morning, little Hanuman looked up and saw a glowing orb in the sky. Innocent and hungry, he mistook the Sun for a ripe mango and leapt skyward at lightning speed to devour it. This bold act startled the cosmos—Indra, the King of Gods, hurled his thunderbolt (vajra) to stop him, striking Hanuman on the jaw and causing him to fall to earth.<br>
+        Outraged, Vayu, Hanuman’s divine father, withdrew air from the world—plunging the earth into chaos. To soothe him and restore balance, the gods blessed Hanuman with incredible boons: strength, wisdom, fearlessness, and immortality.</p>
+        <h2 class="subhead">The Curse That Became a Blessing</h2>
+        <img src="https://www.naamjapa.com/wp-content/uploads/2024/01/How-Did-Hanuman-Forget-His-Powers.jpg" class="bless scroll-fade">
+        <p class="Intro">Young Hanuman, full of energy and mischief, often played pranks on the sages meditating in forests. To tame his divine exuberance, a sage placed a gentle curse: Hanuman would forget his powers—until reminded of them by someone in need. This ensured he remained humble despite his greatness and explains why he had to be “awakened” to his powers during the Ramayana.</p>
+        <h2 class="subhead">Hanuman Meets Lord Rama</h2>
+        <img src="https://www.yogatrotter.com/wp-content/uploads/2022/08/Rama-and-Hanuman.jpg" class="meet scroll-fade">
+        <p class="Intro">After years of meditation and humble service in the forests of Kishkindha, Hanuman’s moment of destiny arrived. Disguised as a Brahmachari, he approached two radiant princes—Rama and Lakshmana—on behalf of King Sugriva. From the instant he laid eyes upon Lord Rama, a spark of eternal devotion was ignited. <br>
+        Their conversation wasn't just an exchange of words—it was the birth of a cosmic friendship. Lord Rama was struck not only by Hanuman’s wisdom and eloquence, but by the quiet intensity of his loyalty.<br>
+       <b> > “I am yours, my Lord,” Hanuman said, “body, soul, and every breath I take.”</b><br>
+       From that moment on, Hanuman didn’t just serve Rama—he embodied his will. He became his most devoted messenger, his most fearless warrior, and his most loyal disciple.
+        </p>
+        <h2 class="subhead">The Southern Quest Begins</h2>
+        <img src="https://i.pinimg.com/736x/11/02/f0/1102f0769f432ff582e2f30f887df785.jpg" class="south scroll-fade">
+        <p class="Intro">With Lord Rama’s blessing and Sugriva’s command, a mighty search party was formed—Hanuman, Angada (son of Vali), Jambavan (the wise bear king), and the vanaras Nala and Nila. Their mission: to head south and find Sita Devi, whose whereabouts were still unknown.<br>
+        The journey was grueling. They crossed forests, mountains, and rivers, driven by devotion and duty. As days passed and hope began to wane, the group reached the southern tip of the Indian subcontinent, where the vast ocean stretched endlessly before them.</p>
+        <h2 class="subhead">The Moment of Awakening</h2>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj5wgBmh4c7V5hyGV7K5b7_28cQ0bPFEU-a8pBVurLd8HuARJBAo122X8DqNagKUS0C70vwfvL8Ntzlgv8h3vzx1SNEdiq5irhk_48CENrrxOyQam6U618d4rr-YXHlQGVDbRmj7haCxBH/s1600/sampati-22.jpg" class="sampathi scroll-fade">
+        <p class="Intro">Here, the group encountered Sampati, the elder brother of Jatayu, who revealed that Sita was indeed in Lanka, held captive by Ravana. But the challenge remained—who could leap across the ocean to reach her?<br>
+        </p><br>
+        <img src="./Hanuman.png" class="sampathi scroll-fade">
+        <p class="Intro">That’s when Jambavan, the ancient and wise warrior, stepped forward. He reminded Hanuman of his forgotten powers, hidden by a childhood curse. With words of encouragement and divine insight, he rekindled the fire within Hanuman.
+
+<b>> “You are the son of Vayu, the wind itself. There is no force that can stop you.” </b></p>
+        <h2 class="subhead">The Leap from Gandhamadhana Mountain</h2>
+        <img src="https://qph.cf2.quoracdn.net/main-qimg-07cea9165e74c2696ae55f9e2b907d5f-lq" class="sampathi scroll-fade">
+        <p class="Intro">Empowered by Jambavan’s words and Lord Rama’s mission, Hanuman ascended the sacred Gandhamadhana Mountain—a revered peak near Rameswaram, believed to be the very spot from which he launched his legendary flight to Lanka. <br>
+        As he stood atop the summit, the ocean roared below, and the skies seemed to part in anticipation. With Lord Rama’s name echoing in his heart, Hanuman took a mighty leap—from Gandhamadhana to glory—soaring across the sea with divine purpose.<br>
+    This wasn’t just a physical act; it was a moment of cosmic alignment. The mountain, the mission, and the messenger—all united in dharma.</p>
+    <h2 class="subhead">Hanuman Meets Sita Devi in Ashok Vatika</h2>
+    <img src="https://i.pinimg.com/736x/74/a1/09/74a10965c6e0e23de75160fc33a6a5b9.jpg" class="sampathi scroll-fade">
+    <p class="Intro">After crossing the vast ocean and evading the watchful eyes of Lanka’s guards, Hanuman finally reached the lush and sorrowful Ashok Vatika—a garden where Sita Devi was held captive by Ravana. Hidden among the trees, Hanuman observed her: frail, yet radiant; sorrowful, yet unbroken.<br>
+    He waited for the right moment, then gently descended from the branches and approached her with folded hands. To gain her trust, he presented Lord Rama’s ring, a symbol of hope and truth. Upon seeing it, Sita’s eyes welled with tears—not of sorrow, but of divine reassurance.<br>
+    <b>> “I am Hanuman, the servant of Lord Rama,” he said. > “He will come for you. This I promise.”</b><br>
+    In that moment, a bridge of faith was built—between a devoted messenger and a queen of unshakable virtue. It was the beginning of Ravana’s downfall and the rise of Rama’s righteous path.</p>
+    <h2 class="subhead">Hanuman Destroys Ashok Vatika</h2>
+    <img src="https://pbs.twimg.com/media/FEnYLXDUYAQ990L.jpg" class="sampathi scroll-fade">
+    <p class="Intro">After delivering Lord Rama’s ring and message to Sita Devi, Hanuman offered to carry her back to Rama. But Sita, ever noble, refused—insisting Rama must come and defeat Ravana himself. With her blessing, Hanuman prepared to leave—but not quietly. <br>
+    Before departing, he allowed his divine strength to erupt. In a display of righteous rage and warning, Hanuman uprooted trees, tore down pavilions, and shattered the serenity of Ashok Vatika. The once-lush garden became a battlefield of broken pride.<br>
+Ravana’s guards rushed in—first the ordinary soldiers, then his mighty sons like Akshayakumara. But none could match Hanuman’s fury. With his bare hands and tail, he defeated them all, sending a clear message: Rama’s messenger has arrived—and Lanka will fall.
+<br> <b>> “This is but a glimpse,” Hanuman roared, “of what awaits if Sita is not returned.”</b></p>
+<!-- Hanuman Captured and Tail Set on Fire -->
+<h2 class="subhead">Hanuman's Capture & the Fiery Tail</h2>
+<img src="https://i0.wp.com/www.mythoworld.com/wp-content/uploads/2022/01/Hanuman-is-presented-to-ravana-blog.jpg?fit=1000%2C667&ssl=1" class="sampathi scroll-fade">
+<p class="Intro">
+  After causing havoc in Ashok Vatika and defeating Ravana’s sons, Hanuman was finally captured by Indrajit, bound with celestial weapons. Ravana, enraged by Hanuman’s defiance, ordered his tail be set on fire. But the fire became his weapon. With the name of Rama on his lips, Hanuman used his burning tail to leap across Lanka, setting ablaze the golden city—signaling the wrath of dharma unleashed.
+</p>
+
+<!-- Hanuman Burns Lanka -->
+<h2 class="subhead">The Burning of Lanka</h2>
+<img src="https://cdna.artstation.com/p/assets/images/images/084/129/412/large/vineet-kumar-lanka-dhaai.jpg?1737609950" class="sampathi scroll-fade">
+<p class="Intro">
+  As flames danced across Lanka's rooftops, Hanuman reminded the demons that power built on adharma is destined to fall. With each leap and twist of his fiery tail, he carved Rama’s justice into the sky. He spared Ashok Vatika—the sanctuary of Sita Devi—out of reverence, showing that his fury always bowed to virtue.
+</p>
+
+<!-- Hanuman Returns with Sita’s Message -->
+<h2 class="subhead">Return to Rama with Sita's Message</h2>
+<img src="https://www.lordhanuman.org/wp-content/uploads/2024/02/Search-For-Sita-Hanuman-Return-From-Lanka-Hanuman-Returns-To-Rama.jpg" class="sampathi scroll-fade">
+<p class="Intro">
+  Hanuman soared back across the ocean with the speed of wind itself, heart full of devotion and eyes lit with purpose. In his palm, he carried more than a message—he carried Sita's unshaken faith. When he landed before Rama, he bowed and said, “Sita waits for you, my Lord, with tears in her eyes but fire in her soul.”
+</p>
+
+<!-- Role in Building Rama Setu and War -->
+<h2 class="subhead">Building the Rama Setu & Waging the War</h2>
+<img src="https://pparihar.com/wp-content/uploads/2014/04/ram-setu.jpg" class="sampathi scroll-fade">
+<p class="Intro">
+  When the sea blocked Rama’s path to Lanka, Hanuman helped lead the construction of Rama Setu. Carrying massive boulders across the waves, he chanted Rama's name as each stone floated miraculously. During the war, he struck terror into the hearts of demons and comfort into the hearts of allies—healing, battling, and inspiring.
+</p>
+
+<!-- Hanuman Brings the Sanjivani Mountain -->
+<h2 class="subhead">The Sanjivani Miracle</h2>
+<img src="https://m.media-amazon.com/images/I/71eEOVcIg6L._UF1000,1000_QL80_.jpg" class="sampathi scroll-fade">
+<p class="Intro">
+  During the fierce battle in Lanka, Lakshmana was struck down by a powerful weapon from Indrajit. As hope began to fade, Hanuman was entrusted with a mission that would test not just his strength, but his speed and resolve. He was to fetch the life-saving herb—<i>Sanjivani</i>—from the distant Himalayas.
+  <br><br>
+  Upon reaching the mountain, Hanuman faced a dilemma: unable to identify the exact herb, he did what only he could—he lifted the entire <b>Dronagiri</b> mountain and flew back across the skies. That moment, with the mountain in his palm and the fate of dharma in his heart, became one of the most iconic acts of devotion and divine service in the Ramayana.
+</p>
+
+<!-- Hanuman Reveals Rama in His Heart -->
+<h2 class="subhead">The Heart of Devotion</h2>
+<img src="https://www.shutterstock.com/shutterstock/photos/2606394465/display_1500/stock-photo-a-powerful-d-render-of-lord-hanuman-opening-his-chest-to-reveal-lord-rama-and-sita-in-his-heart-2606394465.jpg" class="sampathi scroll-fade">
+<p class="Intro">
+  When questioned about his devotion, Hanuman gently tore open his chest. To the awe of all present, within beat not just a heart—but the divine forms of Lord Rama and Sita. That moment wasn’t a metaphor. It was a revelation: true devotion means dissolving ego until nothing remains but love.
+</p>
+
+
+<!-- Origin of Hanuman Chalisa -->
+<h2 class="subhead">The Origin of Hanuman Chalisa</h2>
+<img src="https://images.bhaskarassets.com/web2images/521/2022/08/03/tulsidas-jayanti-730_1659515181.jpg" class="sampathi scroll-fade">
+<p class="Intro">
+  Centuries later, the 16th-century saint **Goswami Tulsidas** composed the *Hanuman Chalisa*—a 40-verse hymn celebrating Hanuman’s virtues, power, and unwavering loyalty. It is said that he wrote it during a time of great personal struggle, and in invoking Hanuman, he found clarity and strength. The Chalisa has since become a spiritual shield for millions—recited for courage, focus, and inner peace.
+</p>
+<div class="chalisa-container">
+    <h1>Shri Hanuman Chalisa</h1>
+<p class="chalisa">Shri Guru Charan Sarooja-raj Nija manu Mukura Sudhaari
+
+Baranau Rahubhara Bimala Yasha Jo Dayaka Phala Chari
+
+Budhee-Heen Thanu Jannikay Sumirow Pavana Kumara
+
+Bala-Budhee Vidya Dehoo Mohee Harahu Kalesha Vikaara
+
+Jai Hanuman gyan gun sagar
+
+Jai Kapis tihun lok ujagar
+
+Ram doot atulit bal dhama
+
+Anjaani-putra Pavan sut nama
+
+Mahabir Bikram Bajrangi
+
+Kumati nivar sumati Ke sangi
+
+Rs 1 Trial
+Kanchan varan viraj subesa
+
+Kanan Kundal Kunchit Kesha
+
+Hath Vajra Aur Dhuvaje Viraje
+
+Kaandhe moonj janehu sajai
+
+Sankar suvan kesri Nandan
+
+Tej prataap maha jag vandan
+
+Vidyavaan guni ati chatur
+
+Ram kaj karibe ko aatur
+
+Prabu charitra sunibe-ko rasiya
+
+Ram Lakhan Sita man Basiya
+
+Sukshma roop dhari Siyahi dikhava
+
+Vikat roop dhari lank jarava
+
+Bhima roop dhari asur sanghare
+
+Ramachandra ke kaj sanvare
+
+Laye Sanjivan Lakhan Jiyaye
+
+Shri Raghuvir Harashi ur laye
+
+Raghupati Kinhi bahut badai
+
+Tum mam priye Bharat-hi-sam bhai
+
+Sahas badan tumharo yash gaave
+
+Asa-kahi Shripati kanth lagaave
+
+Sankadhik Brahmaadi Muneesa
+
+Narad-Sarad sahit Aheesa
+
+Yam Kuber Digpaal Jahan te
+
+Kavi kovid kahi sake kahan te
+
+Tum upkar Sugreevahin keenha
+
+Ram milaye rajpad deenha
+
+Tumharo mantra Vibheeshan maana
+
+Lankeshwar Bhaye Sub jag jana
+
+Yug sahastra jojan par Bhanu
+
+Leelyo tahi madhur phal janu
+
+Prabhu mudrika meli mukh mahee
+
+Jaladhi langhi gaye achraj nahee
+
+Durgaam kaj jagath ke jete
+
+Sugam anugraha tumhre tete
+
+Ram dwaare tum rakhvare
+
+Hoat na agya binu paisare
+
+Sub sukh lahae tumhari sar na
+
+Tum rakshak kahu ko dar naa
+
+Aapan tej samharo aapai
+
+Teenhon lok hank te kanpai
+
+Bhoot pisaach Nikat nahin aavai
+
+Mahavir jab naam sunavae
+
+Nase rog harae sab peera
+
+Japat nirantar Hanumant beera
+
+Sankat se Hanuman chudavae
+
+Man Karam Vachan dyan jo lavai
+
+Sab par Ram tapasvee raja
+
+Tin ke kaj sakal Tum saja
+
+Aur manorath jo koi lavai
+
+Sohi amit jeevan phal pavai
+
+Charon Yug partap tumhara
+
+Hai persidh jagat ujiyara
+
+Sadhu Sant ke tum Rakhware
+
+Asur nikandan Ram dulhare
+
+Ashta-sidhi nav nidhi ke dhata
+
+As-var deen Janki mata
+
+Ram rasayan tumhare pasa
+
+Sada raho Raghupati ke dasa
+
+Tumhare bhajan Ram ko pavai
+
+Janam-janam ke dukh bisraavai
+
+Anth-kaal Raghuvir pur jayee
+
+Jahan janam Hari-Bakht Kahayee
+
+Aur Devta Chit na dharehi
+
+Hanumanth se hi sarve sukh karehi
+
+Sankat kate-mite sab peera
+
+Jo sumirai Hanumat Balbeera
+
+Jai Jai Jai Hanuman Gosahin
+
+Kripa Karahu Gurudev ki nyahin
+
+Jo sat bar path kare kohi
+
+Chutehi bandhi maha sukh hohi
+
+Jo yah padhe Hanuman Chalisa
+
+Hoye siddhi sakhi Gaureesa
+
+Tulsidas sada hari chera
+
+Keejai Nath Hridaye mein dera
+
+Pavan Tanay Sankat Harana 
+
+Mangala Murati Roop
+
+Ram Lakhana Sita Sahita 
+
+Hriday Basahu Soor Bhoop</p>
+</div>
+
+<div class="lessons-container">
+    <h2>Lessons from Hanuman’s Story</h2>
+
+    <p>As we reach the end of Hanuman’s story, it’s clear that his journey is more than just a series of mythological events. It’s a source of deep spiritual lessons and inspiration.</p>
+
+    <div class="lesson-highlight">🌟 The Power of Humility and Devotion</div>
+    <p>Despite his immense strength and powers, Hanuman’s greatest asset was his humility. He never used his powers for personal gain but always in service of Lord Rama. His unwavering devotion reminds us that true strength lies in humility and selflessness.</p>
+
+    <div class="lesson-highlight">🌊 Overcoming Obstacles with Faith</div>
+    <p>Hanuman’s story illustrates that obstacles, no matter how daunting, can be overcome with faith and determination. The curse that made him forget his powers was a major hurdle—but with Jambavan’s guidance and his devotion, Hanuman fulfilled his destiny.</p>
+
+    <div class="lesson-highlight">🔍 Importance of Self-Discovery</div>
+    <p>His journey to rediscover his divine powers reflects our own inner journeys. Often, our greatest strengths lie hidden—waiting to be reawakened with the right guidance and purpose.</p>
+
+    <div class="lesson-highlight">🧙 The Role of a Mentor</div>
+    <p>Jambavan’s pivotal role in reigniting Hanuman’s powers teaches us the value of a mentor. Sometimes it takes a wise voice to help us recognize who we truly are.</p>
+
+    <div class="lesson-highlight">💫 Inspiration for Modern Times</div>
+    <p>Hanuman’s unwavering resilience, courage, and devotion continue to inspire millions. His life is proof that with faith, strength, and purpose, we can conquer the impossible.</p>
+
+    <h3>Conclusion</h3>
+    <p>From a playful child to a revered symbol of devotion, Hanuman’s journey is one of growth, transformation, and service. His story reminds us that every being holds immense untapped potential—and that when guided by dharma and love, we can move mountains.</p>
+
+    <p>Let Hanuman's devotion ignite our faith. Let his strength empower our spirit. Let his journey be our inspiration.</p>
+  </div>
+  <script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, {
+    threshold: 0.2 // triggers when 20% of element is visible
+  });
+
+  document.querySelectorAll('.scroll-fade').forEach(el => {
+    observer.observe(el);
+  });
+</script>
+
+
+        </body>
+
+</html>
